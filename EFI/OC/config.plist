@@ -198,14 +198,6 @@
 				<data>AACbPg==</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con2-enable </key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-type </key>
-				<data>AAgAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
@@ -216,6 +208,14 @@
 				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQEJAAAIAACHAQAAAgAKAAAIAACHAQAA</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-patch-enable - 2</key>
+				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1144,7 +1144,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-vi2c-force-polling dk.e1000=0 alcid=13 shikigva=128 watchdog=0  igfxonln=1 -wegnoegpu agdpmod=vit9696</string>
+				<string>-vi2c-force-polling dk.e1000=0 alcid=13 shikigva=128 watchdog=0  igfxonln=1 -wegnoegpu</string>
 				<key>csr-active-config</key>
 				<data>hwcAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1227,7 +1227,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
+			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
 			<string>C02XX5YWJHCC</string>
 			<key>SystemUUID</key>
